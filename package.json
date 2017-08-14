@@ -1,0 +1,27 @@
+{
+  "name": "sw-notification-test",
+  "version": "1.0.0",
+  "description": "ryan.bian",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r @std/esm app.mjs",
+    "debug": "node --nolazy --inspect-brk=5858 -r @std/esm app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macisi/sw-notification-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macisi/sw-notification-test/issues"
+  },
+  "homepage": "https://github.com/macisi/sw-notification-test#readme",
+  "dependencies": {
+    "@std/esm": "^0.2.2",
+    "koa": "^2.3.0",
+    "koa-better-router": "^2.1.1",
+    "koa-better-serve": "^2.0.3",
+    "koa-nunjucks-async": "^1.0.1"
+  }
+}
